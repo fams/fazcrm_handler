@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\fazcrm]
+@="URL:fazcrm Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\fazcrm\DefaultIcon]
+@="\"C:\\caminho\\para\\seu\\icone.ico\""
+
+[HKEY_CLASSES_ROOT\fazcrm\shell]
+
+[HKEY_CLASSES_ROOT\fazcrm\shell\open]
+
+[HKEY_CLASSES_ROOT\fazcrm\shell\open\command]
+@="\"C:\\caminho\\interpretador\\python.exe\" \"C:\\caminho\\programa\\fazcrm_handler.py\" \"%1\""
